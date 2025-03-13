@@ -81,19 +81,19 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-DATABASES = {
-    'default': {
-        'ENGINE': 'mssql',
-        'NAME': 'azure-sql-db',
-        'USER': 'kay-admin',
-        'PASSWORD': 'K123456#',
-        'HOST': 'kay-server.database.windows.net',
-        'PORT': '1433',
-        'OPTIONS': {
-            'driver': 'ODBC Driver 18 for SQL Server',
-        },
-    },
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'mssql',
+#         'NAME': 'azure-sql-db',
+#         'USER': 'kay-admin',
+#         'PASSWORD': 'K123456#',
+#         'HOST': 'kay-server.database.windows.net',
+#         'PORT': '1433',
+#         'OPTIONS': {
+#             'driver': 'ODBC Driver 18 for SQL Server',
+#         },
+#     },
+# }
 
 
 # Password validation
